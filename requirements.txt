@@ -1,3 +1,8 @@
-jupyterlab>=4.0.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
+jupyterlab>=4.2.5
+matplotlib>=3.9.2
+seaborn>=0.13.2
+
+# Transitive security pins
+urllib3>=2.2.2
+certifi>=2024.8.30
+idna>=3.7
